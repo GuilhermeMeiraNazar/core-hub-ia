@@ -1,0 +1,22 @@
+{
+  "models": [
+    {
+      "name": "qwen2.5:7b",
+      "type": "text",
+      "description": "Modelo principal para geração de texto e chat",
+      "priority": 1
+    },
+    {
+      "name": "phi3.5",
+      "type": "text",
+      "description": "Modelo alternativo mais leve para respostas rápidas",
+      "priority": 2
+    },
+    {
+      "name": "bge-m3",
+      "type": "embedding",
+      "description": "Modelo de embeddings para RAG com banco vetorial",
+      "priority": 1
+    }
+  ]
+}

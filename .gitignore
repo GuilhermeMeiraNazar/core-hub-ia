@@ -1,0 +1,25 @@
+# Dependências
+node_modules/
+package-lock.json
+
+# Build
+dist/
+
+# Variáveis de ambiente local (o .env é versionado como template)
+.env.local
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+
+# Pastas gerenciadas — manter estrutura com .gitkeep
+var/*
+!var/.gitkeep
+!var/ollama/.gitkeep
+!var/models/.gitkeep
+!var/context/.gitkeep
+!var/dblance/.gitkeep
+
+input/*
+!input/.gitkeep
+!input/testChat.ts
